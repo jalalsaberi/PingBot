@@ -35,7 +35,7 @@ TKHNY5zze2PhSaQUGrEyoDz1E9fCG9hjh6
 1. Run this command to install or uninstall the Ping Bot on your server:
 
 ```
-sudo apt update -y && sudo apt install curl -y && sudo bash <(curl -Ls -4 https://raw.githubusercontent.com/jalalsaberi/PingBot/main/install.sh)
+sudo apt update -y && sudo apt install curl -y && bash <(curl -Ls -4 https://raw.githubusercontent.com/jalalsaberi/PingBot/main/install.sh)
 ```
 
 2. If you choose to install, it will prompt you to enter Your Telegram User ID ( You can use my bot: [Telegram ID Bot](https://t.me/TLGID_bot) ), Bot Token provided by BotFather, Two Letter Country Code, and Node Country Code, Your First Server IP address. Please enter the information carefully.
