@@ -27,7 +27,7 @@ install() {
         uninstall
     fi
     mkdir $HOME/.pingbot
-    curl -4 hhttps://raw.githubusercontent.com/jalalsaberi/PingBot/main/pingbot.py > $HOME/.pingbot/pingbot.py
+    curl -4 https://raw.githubusercontent.com/jalalsaberi/PingBot/main/pingbot.py > $HOME/.pingbot/pingbot.py
     cat > "$HOME/.pingbot/conf.json" <<EOF
 {
     "user_id": 0,
